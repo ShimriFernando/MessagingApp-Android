@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "655067315139",
+    "firebase_url": "https://connecting-be525.firebaseio.com",
+    "project_id": "connecting-be525",
+    "storage_bucket": "connecting-be525.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:655067315139:android:5a41788e80edc67f6d1b76",
+        "android_client_info": {
+          "package_name": "com.ChatApp.Connecting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "655067315139-jripv5lt05enh6q8qpjrdcsjs66dl3en.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaqfs2D_E4b4hfgZWDojRDCXalcnOWh18"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "655067315139-jripv5lt05enh6q8qpjrdcsjs66dl3en.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

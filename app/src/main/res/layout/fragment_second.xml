@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_effect"
+    tools:context=".SecondFragment">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/bar_layout"
+        tools:ignore="InvalidID"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="20dp"
+        android:layout_below="@+id/toolbar">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:gravity="start"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBeige"/>
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/email"
+            android:inputType="textEmailAddress"
+            android:layout_margin="10dp"
+            app:met_floatingLabel="normal"
+            android:hint="@string/email"/>
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/password"
+            android:inputType="textPassword"
+            android:layout_margin="10dp"
+            app:met_floatingLabel="normal"
+            android:hint="@string/password"/>
+
+        <Button
+            android:id="@+id/signin_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/login"
+            android:textColor="@color/colorwhite"
+            android:background="@color/coloramericanpurple"/>
+        <TextView
+            android:id="@+id/forgot_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/forgot_password"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:background="@color/colorengviolet"
+            android:textColor="@color/colorwhite"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

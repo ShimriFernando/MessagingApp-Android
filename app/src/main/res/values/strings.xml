@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Connecting</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="sign_in">sign in</string>
+    <string name="Email">Email</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="Reset">Reset</string>
+    <string name="Username">Username</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Profile">Profile</string>
+    <string name="search">Search</string>
+    <string name="message">Message</string>
+    <string name="type_message">Type message</string>
+    <string name="Hello">Hello</string>
+    <string name="logout">Logout</string>
+    <string name="Seen">seen</string>
+    <string name="Delivered">Delivered</string>
+    <string name="NoMessage">No Message</string>
+    <string name="sign_up">sign up</string>
+    <string name="connecting">Connecting</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="create_new_account">Create new account</string>
+    <string name="username">Username</string>
+
+    <string name="register">Register</string>
+    >
+    <string name="Try_again">"Didn't receive code? Try again "</string>
+</resources>
